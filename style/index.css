@@ -1,1 +1,226 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+    text-decoration: none;
+}
+/* general styles */
+html{
+    font-size:62.5%;
+
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    background-color:#FFEEDB ;
+    color: #4f4f4f;
+    font-family: 'Hahmlet', serif;
+}
+h1{
+      font-size: 5rem;
+      color: 
+}
+header{
+    background-color:#FFD8CC ;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    padding-left: 1%;
+    width: 16%;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    font-size: 1.5rem%;
+}
+p{
+    font-size: 2rem;
+}
+
+.moon img{
+    border-radius: 40%;
+    width: 25%;
+    padding:2%;
+    z-index: 3;
+    display: flex;
+
+
+}
+
+h2{
+    font-size: 3.5rem;
+    
+    
+}
+#top{
+    width:70%;
+    margin-left: 20%;
+}
+.journey{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    display: inline-block;
+    width: 60%;
+}
+
+.journey p{
+    width: 70%;
+    margin-top: 5%;
+    text-align: center;
+    padding-left: 27%; 
+
+}
+
+.journey button{
+    margin-top: 5%;
+    font-size: 2rem;
+    width: 20%;
+    height: 10%;
+}
+
+.journey h2{
+    margin: 0%;
+    padding: 9% 0% 0% 0%
+}
+
+.bgimg1{
+    background-image: url(../images/stefen-tan-KYw1eUx1J7Y-unsplash.jpg);
+    width: 20%;
+    height: 50vh;
+    background-image: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
+   
+}
+
+.bgimg2{
+background-image: url(../images/igor-karimov-2W0eSl3AAu0-unsplash.jpg);
+width: 20%;
+height: 50vh;
+background-size: cover;
+}
+
+.bgimg3{
+background-image: url(../images/jurien-huggins-dEUYgSzEosc-unsplash.jpg);
+height: 50vh;
+width: 20%;
+background-size: cover;
+}
+.bgimg4{
+background-image: url(../images/markus-winkler-nbOBYaAIt5k-unsplash.jpg);
+height: 50vh;
+width: 19%;
+background-size: cover;
+}
+
+.bgimg6{
+background-image: url(../images/k-mitch-hodge-wZfndoCA1rA-unsplash.jpg);
+height: 50vh;
+width: 20%;
+background-size: cover;
+
+}
+.bgimg7{
+background-image: url(../images/stephen-baker-QAX5Ylx-lKo-unsplash.jpg);
+height: 50vh;
+width: 20%;
+background-size: cover;
+}
+.bgimg8{
+background-image: url(../images/nick-wang-E7RaGpEXntI-unsplash.jpg);
+height: 50vh;
+width: 20%;
+background-size: cover;
+background-position: center;
+
+}
+.bgimg9{
+    background-image: url(../images/eric-han-Hd7vwFzZpH0-unsplash.jpg);
+    width: 20%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.middleone{
+    display: flex;
+    padding-top: 2%;
+    background-size: cover;
+    height: 80vh;
+    margin: 5%;
+    justify-content: space-between;
+
+}
+
+.middletwo{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display:flex;
+    background-size: cover;
+    margin: 5%;
+    justify-content: space-between;
+
+}
+.pics h2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:#FFD8CC ;
+}
