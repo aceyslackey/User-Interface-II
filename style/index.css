@@ -51,7 +51,6 @@ table {
     padding: 0%;
     margin: 0%;
     max-width: 100%;
-    border: 1px solid grey;
     text-decoration: none;
 }
 /* general styles */
@@ -139,67 +138,89 @@ h2{
 
 .bgimg1{
     background-image: url(../images/stefen-tan-KYw1eUx1J7Y-unsplash.jpg);
-    width: 30%;
+    width: 20%;
+    height: 50vh;
     background-image: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    background-position: center;
     
    
 }
 
 .bgimg2{
 background-image: url(../images/igor-karimov-2W0eSl3AAu0-unsplash.jpg);
-width: 30%;
-background-image: cover;
-background-image: no-repeat;
+width: 20%;
+height: 50vh;
+background-size: cover;
 }
 
 .bgimg3{
 background-image: url(../images/jurien-huggins-dEUYgSzEosc-unsplash.jpg);
-
-width: 30%;
-background-image: cover;
+height: 50vh;
+width: 20%;
+background-size: cover;
 }
 .bgimg4{
 background-image: url(../images/markus-winkler-nbOBYaAIt5k-unsplash.jpg);
-height: 80vh;
-width: 30%;
-background-image: cover;
+height: 50vh;
+width: 19%;
+background-size: cover;
 }
 
 .bgimg6{
 background-image: url(../images/k-mitch-hodge-wZfndoCA1rA-unsplash.jpg);
-height: 80vh;
-width: 30%;
-background-image: cover;
+height: 50vh;
+width: 20%;
+background-size: cover;
+
 }
 .bgimg7{
 background-image: url(../images/stephen-baker-QAX5Ylx-lKo-unsplash.jpg);
-height: 80vh;
-width: 30%;
-background-image: cover;
+height: 50vh;
+width: 20%;
+background-size: cover;
 }
 .bgimg8{
 background-image: url(../images/nick-wang-E7RaGpEXntI-unsplash.jpg);
-height: 80vh;
-width: 30%;
-background-image: cover;
+height: 50vh;
+width: 20%;
+background-size: cover;
+background-position: center;
+
 }
 .bgimg9{
     background-image: url(../images/eric-han-Hd7vwFzZpH0-unsplash.jpg);
-    width: 30%;
-    height: 80vh;
-    background-image: cover;
+    width: 20%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
 }
 .middleone{
-    padding-top: 2%;
     display: flex;
-    background-image: cover;
+    padding-top: 2%;
+    background-size: cover;
+    height: 80vh;
+    margin: 5%;
+    justify-content: space-between;
+
 }
 
 .middletwo{
     padding-top: 4%;
     padding-bottom: 4%;
     display:flex;
-    background-image: cover;
+    background-size: cover;
+    margin: 5%;
+    justify-content: space-between;
 
+}
+.pics h2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:#FFD8CC ;
 }
