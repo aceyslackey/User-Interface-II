@@ -67,7 +67,7 @@ body{
 }
 h1{
       font-size: 5rem;
-      color: 
+      
 }
 header{
     background-color:#FFD8CC ;
@@ -81,7 +81,7 @@ header nav{
     width: 16%;
     justify-content: space-between;
     padding-bottom: 1%;
-    font-size: 1.5rem%;
+    font-size: 1.5rem;
 }
 p{
     font-size: 2rem;
@@ -93,8 +93,6 @@ p{
     padding:2%;
     z-index: 3;
     display: flex;
-
-
 }
 
 h2{
@@ -106,13 +104,16 @@ h2{
     width:70%;
     margin-left: 20%;
 }
+
+.links{
+    display: flex;
+}
+
 .journey{
-    float: right;
+    
     display: flex;
     flex-direction: column;
     text-align: center;
-    display: flex;
-    display: inline-block;
     width: 60%;
 }
 
@@ -127,8 +128,8 @@ h2{
 .journey button{
     margin-top: 5%;
     font-size: 2rem;
-    width: 20%;
-    height: 10%;
+    width: 5%;
+    padding: 4% 0;
 }
 
 .journey h2{
@@ -198,7 +199,6 @@ background-position: center;
 .middleone{
     display: flex;
     padding-top: 2%;
-    background-size: cover;
     height: 80vh;
     margin: 5%;
     justify-content: space-between;
@@ -209,13 +209,14 @@ background-position: center;
     padding-top: 4%;
     padding-bottom: 4%;
     display:flex;
-    background-size: cover;
     margin: 5%;
     justify-content: space-between;
 
 }
+
 .pics h2{
     text-align: center;
+    width: 100%;
 }
 
 footer{
@@ -224,3 +225,129 @@ footer{
     padding-bottom: 2%;
     background-color:#FFD8CC ;
 }
+
+@media (max-width: 500px){
+  h1{
+      text-align: center;
+      font-size: 3.5rem;
+  }
+  
+.links nav{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.journey{
+    width: 100%;
+    text-align: center;
+}
+.journey p{
+    width: 100%;
+    padding-left: 7%;
+    margin-right: 50%;
+    text-align: center;
+    
+}
+.middleone , .middletwo{
+flex-wrap: wrap;
+margin: 2% 0;
+height: auto;
+}
+.middleone div, .middletwo div{
+    margin: 2% 0;
+}
+h2{
+    display: none;
+}
+
+
+.journey button{
+    width:60%;
+    font-size: 1.5rem;
+}
+
+#top{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+.moon img{
+    width: 70%; 
+}
+    
+}
+.picture{
+margin: 2% 0;    
+width: 45%
+}
+
+.pics{
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+@media (max-width: 800px){
+    .links nav{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .journey{
+        width: 100%;
+        text-align: center;
+    }
+    .journey p{
+        width: 100%;
+        padding-left: 7%;
+        margin-right: 50%;
+        text-align: center;
+        
+    }
+    
+    
+  .journey p{
+      padding-left: 0%;
+  }
+    
+    
+    .journey button{
+        width:60%;
+        font-size: 1.5rem;
+        text-align: center;
+        
+    }
+    
+    #top{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    .moon img{
+        width: 70%; 
+    }
+        
+
+    footer{
+        padding: 4% 0;
+    }
+
+    footer button{
+        padding: 1.5% 1%;
+    }
+
+
+}
+
+
