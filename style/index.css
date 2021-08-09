@@ -93,8 +93,6 @@ p{
     padding:2%;
     z-index: 3;
     display: flex;
-
-
 }
 
 h2{
@@ -106,6 +104,11 @@ h2{
     width:70%;
     margin-left: 20%;
 }
+
+.links{
+    display: flex;
+}
+
 .journey{
     float: right;
     display: flex;
@@ -198,7 +201,6 @@ background-position: center;
 .middleone{
     display: flex;
     padding-top: 2%;
-    background-size: cover;
     height: 80vh;
     margin: 5%;
     justify-content: space-between;
@@ -209,13 +211,14 @@ background-position: center;
     padding-top: 4%;
     padding-bottom: 4%;
     display:flex;
-    background-size: cover;
     margin: 5%;
     justify-content: space-between;
 
 }
+
 .pics h2{
     text-align: center;
+    width: 100%;
 }
 
 footer{
@@ -224,3 +227,116 @@ footer{
     padding-bottom: 2%;
     background-color:#FFD8CC ;
 }
+
+@media (max-width: 500px){
+  h1{
+      text-align: center;
+      font-size: 3.5rem;
+  }
+.links nav{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+.journey{
+    width: 100%;
+    text-align: center;
+}
+.journey p{
+    width: 100%;
+    padding-left: 7%;
+    margin-right: 50%;
+    text-align: center;
+    
+}
+.middleone, .middletwo{
+flex-wrap: wrap;
+margin: 5% 0;
+}
+
+h2{
+    display: none;
+}
+
+
+.journey button{
+    width:60%;
+    font-size: 1.5rem;
+}
+
+#top{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+.moon img{
+    width: 70%; 
+}
+    
+}
+.picture{
+margin: 2% 0;    
+width: 45%
+}
+
+.pics{
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+@media (max-width: 800px){
+    .links nav{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .journey{
+        width: 100%;
+        text-align: center;
+    }
+    .journey p{
+        width: 100%;
+        padding-left: 7%;
+        margin-right: 50%;
+        text-align: center;
+        
+    }
+    
+    
+  
+    
+    
+    .journey button{
+        width:60%;
+        font-size: 1.5rem;
+    }
+    
+    #top{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+    
+    .moon img{
+        width: 70%; 
+    }
+        
+    
+
+
+
+
+}
+
+
