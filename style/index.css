@@ -67,7 +67,7 @@ body{
 }
 h1{
       font-size: 5rem;
-      color: 
+      
 }
 header{
     background-color:#FFD8CC ;
@@ -81,7 +81,7 @@ header nav{
     width: 16%;
     justify-content: space-between;
     padding-bottom: 1%;
-    font-size: 1.5rem%;
+    font-size: 1.5rem;
 }
 p{
     font-size: 2rem;
@@ -110,12 +110,10 @@ h2{
 }
 
 .journey{
-    float: right;
+    
     display: flex;
     flex-direction: column;
     text-align: center;
-    display: flex;
-    display: inline-block;
     width: 60%;
 }
 
@@ -130,8 +128,8 @@ h2{
 .journey button{
     margin-top: 5%;
     font-size: 2rem;
-    width: 20%;
-    height: 10%;
+    width: 5%;
+    padding: 4% 0;
 }
 
 .journey h2{
@@ -233,6 +231,7 @@ footer{
       text-align: center;
       font-size: 3.5rem;
   }
+  
 .links nav{
     width: 100%;
     flex-direction: column;
@@ -249,11 +248,14 @@ footer{
     text-align: center;
     
 }
-.middleone, .middletwo{
+.middleone , .middletwo{
 flex-wrap: wrap;
-margin: 5% 0;
+margin: 2% 0;
+height: auto;
 }
-
+.middleone div, .middletwo div{
+    margin: 2% 0;
+}
 h2{
     display: none;
 }
@@ -312,12 +314,16 @@ width: 45%
     }
     
     
-  
+  .journey p{
+      padding-left: 0%;
+  }
     
     
     .journey button{
         width:60%;
         font-size: 1.5rem;
+        text-align: center;
+        
     }
     
     #top{
@@ -332,9 +338,14 @@ width: 45%
         width: 70%; 
     }
         
-    
 
+    footer{
+        padding: 4% 0;
+    }
 
+    footer button{
+        padding: 1.5% 1%;
+    }
 
 
 }
